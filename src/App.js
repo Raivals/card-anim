@@ -1,7 +1,13 @@
-import React from 'react';
+import React from "react"
+// Import components
+import Card from "./components/Card"
 
 const App = () => {
-  return <div>react 3d card</div>;
-};
+  return (
+    <div className="w-full bg-[#b1a29d] h-screen flex items-center justify-center">
+      <Card />
+    </div>
+  )
+}
 
-export default App;
+export default App
